@@ -4,10 +4,10 @@ from flask_mysqldb import MySQL
 app = Flask(__name__)
 
 #conexion mysql
-app.config['MYSQL_HOST']='192.185.194.19'
-app.config['MYSQL_USER']='sv1com_estudio'
-app.config['MYSQL_PASSWORD']='xp01Adminxp02'
-app.config['MYSQL_DB']='sv1com_contactos'
+app.config['MYSQL_HOST']='us-cdbr-east-02.cleardb.com'
+app.config['MYSQL_USER']='b57db165e30761'
+app.config['MYSQL_PASSWORD']='5d8c2c27'
+app.config['MYSQL_DB']='heroku_771cd42ef9fcb83'
 mysql = MySQL(app)
 
 # VARIABLE DE SESSION
